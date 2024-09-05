@@ -1,0 +1,125 @@
+﻿  Compiling CUDA source file convolution_base.cu...
+  Compiling CUDA source file FINAL.cu...
+  
+  C:\Users\imnot\Documents\UNIFI\Parallel Computing\Kernel_Image_Processing\Kernel_Image_Processing>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o "C:\Users\imnot\Documents\UNIFI\Parallel Computing\Kernel_Image_Processing\Kernel_Image_Processing\x64\Debug\convolution_base.cu.obj" "C:\Users\imnot\Documents\UNIFI\Parallel Computing\Kernel_Image_Processing\Kernel_Image_Processing\convolution_base.cu" 
+  
+  C:\Users\imnot\Documents\UNIFI\Parallel Computing\Kernel_Image_Processing\Kernel_Image_Processing>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o "C:\Users\imnot\Documents\UNIFI\Parallel Computing\Kernel_Image_Processing\Kernel_Image_Processing\x64\Debug\FINAL.cu.obj" "C:\Users\imnot\Documents\UNIFI\Parallel Computing\Kernel_Image_Processing\Kernel_Image_Processing\FINAL.cu" 
+C:\Users\imnot\Documents\UNIFI\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\imnot\Documents\UNIFI\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+C:\Users\imnot\Documents\UNIFI\opencv\build\include\opencv2/stitching/detail/matchers.hpp(182): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::BestOf2NearestMatcher"
+    class  BestOf2NearestMatcher : public FeaturesMatcher
+           ^
+  
+C:\Users\imnot\Documents\UNIFI\opencv\build\include\opencv2/stitching/detail/matchers.hpp(236): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::AffineBestOf2NearestMatcher"
+    class  AffineBestOf2NearestMatcher : public BestOf2NearestMatcher
+           ^
+  
+C:\Users\imnot\Documents\UNIFI\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\imnot\Documents\UNIFI\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+C:\Users\imnot\Documents\UNIFI\opencv\build\include\opencv2/stitching/detail/blenders.hpp(100): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+    class  FeatherBlender : public Blender
+           ^
+  
+C:\Users\imnot\Documents\UNIFI\opencv\build\include\opencv2/stitching/detail/blenders.hpp(127): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+    class  MultiBandBlender : public Blender
+           ^
+  
+C:\Users\imnot\Documents\UNIFI\opencv\build\include\opencv2/stitching/detail/matchers.hpp(182): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::BestOf2NearestMatcher"
+    class  BestOf2NearestMatcher : public FeaturesMatcher
+           ^
+  
+C:\Users\imnot\Documents\UNIFI\opencv\build\include\opencv2/stitching/detail/matchers.hpp(236): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::AffineBestOf2NearestMatcher"
+    class  AffineBestOf2NearestMatcher : public BestOf2NearestMatcher
+           ^
+  
+C:\Users\imnot\Documents\UNIFI\opencv\build\include\opencv2/stitching/detail/blenders.hpp(100): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+    class  FeatherBlender : public Blender
+           ^
+  
+C:\Users\imnot\Documents\UNIFI\opencv\build\include\opencv2/stitching/detail/blenders.hpp(127): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+    class  MultiBandBlender : public Blender
+           ^
+  
+C:\Users\imnot\Documents\UNIFI\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\imnot\Documents\UNIFI\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+C:\Users\imnot\Documents\UNIFI\opencv\build\include\opencv2/stitching/detail/matchers.hpp(182): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::BestOf2NearestMatcher"
+    class  BestOf2NearestMatcher : public FeaturesMatcher
+           ^
+  
+C:\Users\imnot\Documents\UNIFI\opencv\build\include\opencv2/stitching/detail/matchers.hpp(236): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::AffineBestOf2NearestMatcher"
+    class  AffineBestOf2NearestMatcher : public BestOf2NearestMatcher
+           ^
+  
+C:\Users\imnot\Documents\UNIFI\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\imnot\Documents\UNIFI\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+C:\Users\imnot\Documents\UNIFI\opencv\build\include\opencv2/stitching/detail/blenders.hpp(100): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+    class  FeatherBlender : public Blender
+           ^
+  
+C:\Users\imnot\Documents\UNIFI\opencv\build\include\opencv2/stitching/detail/blenders.hpp(127): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+    class  MultiBandBlender : public Blender
+           ^
+  
+C:\Users\imnot\Documents\UNIFI\opencv\build\include\opencv2/stitching/detail/matchers.hpp(182): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::BestOf2NearestMatcher"
+    class  BestOf2NearestMatcher : public FeaturesMatcher
+           ^
+  
+C:\Users\imnot\Documents\UNIFI\opencv\build\include\opencv2/stitching/detail/matchers.hpp(236): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::AffineBestOf2NearestMatcher"
+    class  AffineBestOf2NearestMatcher : public BestOf2NearestMatcher
+           ^
+  
+C:\Users\imnot\Documents\UNIFI\opencv\build\include\opencv2/stitching/detail/blenders.hpp(100): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+    class  FeatherBlender : public Blender
+           ^
+  
+C:\Users\imnot\Documents\UNIFI\opencv\build\include\opencv2/stitching/detail/blenders.hpp(127): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+    class  MultiBandBlender : public Blender
+           ^
+  
+  convolution_base.cu
+  FINAL.cu
+  tmpxft_00000be4_00000000-7_convolution_base.cudafe1.cpp
+C:\Users\imnot\Documents\UNIFI\Parallel Computing\Kernel_Image_Processing\Kernel_Image_Processing\convolution_base.cu(60): warning C4305: '=': truncation from 'double' to 'float'
+  tmpxft_000044c0_00000000-7_FINAL.cudafe1.cpp
+C:\Users\imnot\Documents\UNIFI\Parallel Computing\Kernel_Image_Processing\Kernel_Image_Processing\FINAL.cu(91): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\imnot\Documents\UNIFI\Parallel Computing\Kernel_Image_Processing\Kernel_Image_Processing\FINAL.cu(91): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\imnot\Documents\UNIFI\Parallel Computing\Kernel_Image_Processing\Kernel_Image_Processing\FINAL.cu(91): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\imnot\Documents\UNIFI\Parallel Computing\Kernel_Image_Processing\Kernel_Image_Processing\FINAL.cu(92): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\imnot\Documents\UNIFI\Parallel Computing\Kernel_Image_Processing\Kernel_Image_Processing\FINAL.cu(92): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\imnot\Documents\UNIFI\Parallel Computing\Kernel_Image_Processing\Kernel_Image_Processing\FINAL.cu(92): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\imnot\Documents\UNIFI\Parallel Computing\Kernel_Image_Processing\Kernel_Image_Processing\FINAL.cu(93): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\imnot\Documents\UNIFI\Parallel Computing\Kernel_Image_Processing\Kernel_Image_Processing\FINAL.cu(93): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\imnot\Documents\UNIFI\Parallel Computing\Kernel_Image_Processing\Kernel_Image_Processing\FINAL.cu(93): warning C4305: '=': truncation from 'double' to 'float'
+  Kernel_Image_Processing.vcxproj -> C:\Users\imnot\Documents\UNIFI\Parallel Computing\Kernel_Image_Processing\x64\Debug\Kernel_Image_Processing.exe
