@@ -1,6 +1,7 @@
 # CUDA Image Processing Project
 
 This project implements a 2D image convolution using CUDA for parallel image processing. The main goal is to leverage the GPU's parallelization capabilities to achieve significant performance improvements compared to a sequential CPU implementation. OpenCV is used for image handling.
+[![Watch the video](https://img.youtube.com/vi/jjCtI-Ygrhg/maxresdefault.jpg)](https://www.youtube.com/watch?v=jjCtI-Ygrhg)
 
 ## Table of Contents
 - [Introduction](#introduction)
